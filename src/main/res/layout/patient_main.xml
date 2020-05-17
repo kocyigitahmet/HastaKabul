@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7E03A9F4">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ivMain"
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="150sp"
+            android:layout_marginBottom="30sp"
+            android:src="@drawable/hindi" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hasta_numarasi"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+
+        <EditText
+            android:id="@+id/inputPatientID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="6" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="@string/taburcu_et"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/hasta_kabul"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l_tfen_6_haneli_hasta_numaras_n_giriniz"
+            android:textColor="#E91E63"
+            android:textColorHint="#C81515"
+            android:textColorLink="#F44336"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_marginTop="10sp"/>
+
+        <TextView
+            android:id="@+id/tvInfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ard_ndan_hastay_taburcu_edebilirsiniz"
+            android:textColor="#E91E63"
+            android:textColorHint="#C81515"
+            android:textColorLink="#F44336"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LİSTELE"
+            android:layout_marginTop="5sp"
+            android:typeface="monospace"/>
+
+        <ListView
+            android:id="@+id/hastaListele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

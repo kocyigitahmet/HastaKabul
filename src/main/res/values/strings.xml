@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HastaKabul</string>
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="sifre">Şifreniz</string>
+    <string name="hasta_numarasi">Hasta Numarası</string>
+    <string name="taburcu_et">Taburcu Et</string>
+    <string name="hasta_bilgilerini_getir">Hasta Bilgilerini Getir</string>
+    <string name="hasta_kabul">HASTA KABUL</string>
+    <string name="register_pat">KAYIT ET</string>
+    <string name="exit_">ÇIKIŞ</string>
+    <string name="departmant">Bölüm</string>
+    <string name="pat_lastName">Hasta Soyadı</string>
+    <string name="pat_firstName">Hasta Adı</string>
+    <string name="pat_ID">Hasta Sicil Numarası</string>
+    <string name="ard_ndan_hastay_taburcu_edebilirsiniz">Ardından Hastayı Taburcu Edebilirsiniz.</string>
+    <string name="l_tfen_6_haneli_hasta_numaras_n_giriniz">Lütfen 6 Haneli Hasta Numarasını Giriniz</string>
+
+    <string-array name="deps">
+        <item>Çocuk Hastalıkları</item>
+        <item>Dermatoloji</item>
+        <item>Fizik Tedavi</item>
+        <item>Gastroloji</item>
+        <item>Göz Hastalıkları</item>
+        <item>Kulak Burun Boğaz</item>
+        <item>Ortapedi ve Travmatoloji</item>
+        <item>Sinir Hastalıkları</item>
+    </string-array>
+</resources>
